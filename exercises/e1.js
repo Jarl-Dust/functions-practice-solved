@@ -14,7 +14,14 @@
 */
 
 // Your code goes here
-
+function logMessage (bool){
+  if (bool){
+    console.log('Hello, World');
+  } else {
+    console.log('Hello, World!');
+  }
+}
+logMessage(true);
 
 
 
@@ -30,7 +37,11 @@
 */
 
 // Your code goes here...
-
+function logMyMessage (arg1){
+  const myMessage = arg1;
+  console.log(myMessage);
+   }
+   const myMessage = logMyMessage ('My message');
 
 
 
@@ -45,6 +56,10 @@
 */
 
 // Your code goes here...
+function logMessageWithMyName (arg1){
+  console.log('My name is ' + arg1 + '!');
+  }
+  logMessageWithMyName('Andrey!');
 
 
 
@@ -61,7 +76,10 @@
 */
 
 // Your code goes here...
-
+function logMyInfo (arg1, arg2){
+  console.log('My name is ' + arg1 + '. I am ' + arg2 + ' years old!');
+  }
+ logMyInfo ('Andrey', 18);
 
 
 
